@@ -1,0 +1,106 @@
+.container{
+  font-family: Vazir;
+  direction: rtl;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section--item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:0 10px  ;
+    color: white;
+}
+.butten{
+    display: flex;
+    cursor: pointer;
+
+}
+.header{
+    background-color: rgb(47, 107, 94);
+    flex-direction:row ;
+    display: flex;
+    justify-content: space-between;
+}
+.header a:hover{
+    color: white;
+    font-weight:bold;
+font-size: 3rem;
+}
+.home{
+    order: 1;
+}
+.titr{
+    color: white;
+    background-color: rgba(75, 87, 54, .5);
+    border-radius: 10px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.matn h2{
+    background-color: rgb(61, 117, 106);
+    padding: 10px 25px 10px 0;
+    color: white;
+    
+}
+
+.matn p{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: rgb(61, 117, 106);
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 25px 0 0;
+    line-height: .8rem;
+    translate:0 410px  ;
+
+}
+.matn{
+translate :0 -19px;  
+width: 80%;  
+order: 1;
+}
+.main{
+    display: flex;
+    
+}
+.sidbar h2{
+    background-color: rgb(61, 117, 106);
+    color: white;
+    padding: 10px 25px 10px 0;
+
+    
+}
+.sidbar{
+width: 20%;
+translate :0  -19px;  
+text-align: center;
+cursor: pointer;
+
+
+
+}
+.list :hover{
+    color: rgb(231, 16, 16);
+    font-style: italic;
+
+}
+.list a{
+    color: black;
+
+}
+.sidbar img{
+    translate:59px -62px;
+    cursor: pointer;
+}
+.list{
+    translate: 0 -34px;
+
+}

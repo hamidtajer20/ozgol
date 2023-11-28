@@ -1,0 +1,94 @@
+.container{
+    height: 100vh;
+    font-family: Vazir;
+    display: flex;
+    flex-direction: column;
+}
+.formm{
+    border: 5px red;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+    border-style: dashed;
+    border-radius: 84px;
+}
+.header h2{
+    background-color: rgb(7, 102, 102);
+    border: 1px solid  rgb(7, 102, 102);
+    border-radius: 84px;
+    color: white;
+}
+.header{
+    font-weight: 500;
+    translate: -38px -55px;
+    width: 80%;
+}
+.header:hover{
+    transform: rotate(360deg);
+    transition-property: transform;
+    transition-duration: 6000ms;
+    transition-timing-function: cubic-bezier(0.42, 0.05, 0, 1.28);
+}
+
+.form input:not([type="radio"]){
+    width: 70%;
+    border: 1px rgba(224, 131, 131 ,.8);
+    border-style: groove;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 10px;
+    cursor: pointer;
+}
+.form label{
+    margin: 10px 3px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.user{
+    translate: 7px -63px;
+}
+.pas{
+    translate: 0px -61px;
+
+}
+.forget{
+    translate: 59px -57px;
+
+}
+.radio{
+    translate: 29px -44px;
+
+}
+.v{
+border: 1px  rgb(76, 131, 76);
+border-radius: 3px;
+border-style: dotted;
+background-color: green;
+color: white;
+translate: 47px -7px;
+transform: scale(1.5);
+font-family: inherit;
+}
+.s{
+    border: 1px  rgb(129, 77, 77);
+border-radius: 3px;
+border-style: dotted;
+background-color: rgb(128, 0, 0);
+color: white;
+translate: 16px -7px;
+transform: scale(1.5);
+font-family: inherit;
+}
+.form input:invalid{
+    background-color: rgb(245, 177, 177);
+}
+.form input::placeholder{
+    color: black;
+    font-family: inherit;
+}
+.btn button{
+    cursor: pointer;
+
+}
