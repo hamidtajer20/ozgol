@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./index2.css">
   </head>
   <body>
+    <div class="b bg-Light    border rounded-circle  justify-content-center align-items-center text-dark click  position-fixed" style="width: 45px; height: 45px;" >
+      <a href="#" class="text-muted ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+        </svg>
+      </a>
+
+    </div>  
     <div class="content">
       <!--header-->
         <div class="header sticky-top bg-white">
@@ -20,21 +28,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Home</a>
+  
+                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#nav-features">Features</a>
 
                 </li>
                 
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">Recenr post</a>
+                  <a class="nav-link" href="#nav-recent">Recenr post</a>
 
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">Team</a>
+                  <a class="nav-link" href="#nav-team">Team</a>
 
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Asked</a>
+                  <a class="nav-link" href="#nav-asked">Asked</a>
                 </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -62,8 +74,9 @@
             </div>
         </section>
         </div>
+       
         <!--Features-->
-        <div class="fecher container py-4">
+        <div class="fecher container py-4" id="nav-features">
             <sectionc class="container">
                 <h2 class="display-5 text-center mb-4 fw-medium">Features</h2>
                 <p class="text-center text-muted fs-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet natus itaque vitae ut voluptatum. Ducimus molestias vero dignissimos ipsa aliquam, aliquid tempora sint? Aspernatur voluptatibus minima debitis obcaecati vero quaerat!</p>
@@ -178,7 +191,7 @@
         </section>
         </div>
         <!--recent post-->
-        <div class="py-4 container mb-4 ">
+        <div class="py-4 container mb-4 " id="nav-recent">
           <main class="">
             <h2 class="display-5 text-center  fw-small"> <span class="text-danger">Recenr post</span> form our blog</h2>
              <p class="text-center text-muted fs-5 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet natus itaque vitae ut voluptatum. Ducimus molestias vero dignissimos ipsa aliquam, aliquid tempora sint? Aspernatur voluptatibus minima debitis obcaecati vero quaerat!</p>
@@ -248,7 +261,7 @@
         </div>
         <hr>
         <!--tim-->
-        <div class="py-4 container">
+        <div class="py-4 container" id="nav-team">
           <main class="">
             <h2 class="display-5 text-center  fw-small">our <span class="text-danger">Team</span></h2>
              <p class="text-center text-muted fs-5 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet natus itaque vitae ut voluptatum. Ducimus molestias vero dignissimos ipsa aliquam, aliquid tempora sint? Aspernatur voluptatibus minima debitis obcaecati vero quaerat!</p>
@@ -378,7 +391,7 @@
         </div>
         <hr>
         <!--accordion-->
-        <div class="py-4 container">
+        <div class="py-4 container" id="nav-asked">
           <main class="">
             <h2 class="display-5 text-center  fw-small">Frequently <span class="text-danger">Asked</span> Questions</h2>
              <p class="text-center text-muted fs-5 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet natus itaque vitae ut voluptatum. Ducimus molestias vero dignissimos ipsa aliquam, aliquid tempora sint? Aspernatur voluptatibus minima debitis obcaecati vero quaerat!</p>
@@ -505,39 +518,89 @@
 
           </div>
         </div>
-        <hr>
         
-        <!--p-->
-        <div class="container  p fs-3">
+        <!--foter-->
+        <div class="fot " style="background-color: #003566;">
+          <footer class="container py-4" style="height: 20rem;">
+            <div class="row">
+              <div class="col-md-3 text-white">
+                <h3 class="mb-4">Web  <span class="text-danger">developer</span>!</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
+              </div>
+              <div class="col-md-3 ">
+                <h4 class="mb-2 pb-3 ps-2 border-start border-5 border-primary text-warning">pages</h4>
+                <ul class="list-unstyled ps-3 ">
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">vajus</a>
 
-            </p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit nihil ea accusantium in aliquid blanditiis illo possimus nam numquam doloremque dolores laboriosam sed officiis, odit atque similique suscipit fugiat.
-                
-            </p>
+                  </li>
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">reackt</a>
+
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">our Team</a>
+ 
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none text-white">cantact</a>
+ 
+                   </li>
+                </ul>
+              </div>
+              <div class="col-md-3 ">
+                <h4 class="mb-2 pb-3 ps-2 border-start border-5 border-primary text-warning">More</h4>
+                <ul class="list-unstyled ps-3 ">
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">vajus</a>
+
+                  </li>
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">reackt</a>
+
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">our Team</a>
+ 
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none text-white">cantact</a>
+ 
+                   </li>
+                </ul>
+              </div>
+              <div class="col-md-3 ">
+                <h4 class="mb-2 pb-3 ps-2 border-start border-5 border-primary text-warning">Post</h4>
+                <ul class="list-unstyled ps-3 ">
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">vajus</a>
+
+                  </li>
+                  <li>
+                   <a href="#" class="text-decoration-none text-white">reackt</a>
+
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">our Team</a>
+ 
+                   </li>
+                   <li>
+                    <a href="#" class="text-decoration-none text-white">cantact</a>
+ 
+                   </li>
+                </ul>
+              </div>
+
+            </div>
+          </footer>
+          <hr>
+          <div class="design text-center">
+            <p class="fs-5 text-warning"> Designer and Developer : <a href="#" class="text-decoration-none text-white">HAMID TAJER </a></p>
+          </div>
+
         </div>
-    </div>
+        
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
